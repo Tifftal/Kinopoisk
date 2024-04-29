@@ -1,6 +1,6 @@
 # Запуска проекта
 ```
-> git clone https://github.com/Tifftal/Kinopoisk
+> git clone https://github.com/Tifftal/Kinopoisk.git
 ```
 ```
 > yarn
