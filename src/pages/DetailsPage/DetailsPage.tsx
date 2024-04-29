@@ -29,7 +29,6 @@ const DetailsPage = () => {
         axios
             .request(options)
             .then((response) => {
-                console.log(response.data);
                 setMovie(response.data)
             })
             .catch((error) => {
@@ -50,7 +49,6 @@ const DetailsPage = () => {
         axios
             .request(options)
             .then((response) => {
-                console.log(response.data);
                 setSimilar(response.data.results)
             })
             .catch((error) => {
@@ -71,7 +69,6 @@ const DetailsPage = () => {
         axios
             .request(options)
             .then((response) => {
-                console.log(response.data);
                 setCountries(response.data)
             })
             .catch((error) => {
@@ -93,7 +90,6 @@ const DetailsPage = () => {
         axios
             .request(options)
             .then(function (response) {
-                console.log(response.data);
                 setGenres(response.data.genres)
             })
             .catch(function (error) {

@@ -26,7 +26,6 @@ const MainPage = () => {
         axios
             .request(options)
             .then(function (response) {
-                console.log(response.data);
                 setGenres(response.data.genres)
             })
             .catch(function (error) {
@@ -47,7 +46,6 @@ const MainPage = () => {
         axios
             .request(options)
             .then((response) => {
-                console.log(response.data);
                 setMovies(response.data.results)
                 setTotalPages(response.data.total_pages)
             })
